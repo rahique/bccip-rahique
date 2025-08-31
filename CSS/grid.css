@@ -1,0 +1,35 @@
+/* main {
+  height: 100vh;
+  width: 100vw;
+  background: #111111;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background: #333;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box {
+  background: tomato;
+}
+
+.box1 {
+  background: rgb(255, 255, 92);
+}
+.box2 {
+  background: rgb(92, 255, 116);
+  grid-area: 4/4;
+}
+.box3 {
+  background: rgb(92, 97, 255);
+  grid-area: 4/1;
+}
+.box4 {
+  background: rgb(255, 144, 92);
+  grid-area: 3/3;
+} */

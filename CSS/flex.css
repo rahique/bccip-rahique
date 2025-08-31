@@ -1,0 +1,36 @@
+/* main {
+  height: 100vh;
+  width: 100vw;
+  background: #111111;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background: #333;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background: tomato;
+}
+
+.box1 {
+  background: rgb(255, 255, 92);
+}
+.box2 {
+  background: rgb(92, 255, 116);
+}
+.box3 {
+  background: rgb(92, 97, 255);
+}
+.box4 {
+  background: rgb(255, 144, 92);
+} */
