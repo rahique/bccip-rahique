@@ -1,0 +1,22 @@
+/* tablet and below */
+@media (max-width: 768px) {
+  main {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+  }
+  .content {
+    order: 2;
+    width: 90%;
+  }
+  .photo {
+    order: 1;
+    width: 60%;
+  }
+  .btn {
+    padding: 10px;
+  }
+}

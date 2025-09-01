@@ -1,0 +1,22 @@
+.content h2 {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+  color: #ff6243;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+form div input,
+textarea {
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+}

@@ -1,0 +1,46 @@
+.photo {
+  position: relative;
+  z-index: 0;
+}
+.photo::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #ff62432a;
+  transform: rotate(55deg);
+  animation: rotating-one 40s linear infinite;
+}
+.photo::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #ff62433b;
+  transform: rotate(25deg);
+  animation: rotating-two 30s linear infinite;
+}
+
+@keyframes rotating-one {
+  from {
+    transform: rotate(55deg);
+  }
+  to {
+    transform: rotate(415deg);
+  }
+}
+
+@keyframes rotating-two {
+  from {
+    transform: rotate(25deg);
+  }
+  to {
+    transform: rotate(385deg);
+  }
+}

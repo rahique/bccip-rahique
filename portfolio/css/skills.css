@@ -1,0 +1,40 @@
+main {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-wrapper {
+  padding: 0px 10%;
+  width: 100%;
+}
+.skills-wrapper h1 {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  color: white;
+}
+
+/* Grid  */
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.skill-grid div {
+  background: #ff624339;
+  border: 2px solid #ff6243;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border-radius: 8px;
+  transition: background 400ms ease-in-out;
+}
+.skill-grid div:hover {
+  background: #ff6243;
+}

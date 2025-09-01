@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahique</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="./css/animaiton.css" />
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <nav>
+          <div class="logo">Rahique</div>
+
+          <ul class="nav-list">
+            <a href="./index.html">
+              <li class="nav-item">Home</li>
+            </a>
+            <a href="./skills.html">
+              <li class="nav-item">Skills</li>
+            </a>
+          </ul>
+
+          <a href="./contact.html"><button class="btn">Contact</button></a>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content">
+          <h2>Let’s Have a Chat</h2>
+          <form
+            action="https://formsubmit.co/YOUR_EMAIL@example.com"
+            method="POST"
+          >
+            <!-- Name -->
+            <div class="name-wrapper">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Rahique"
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="email-wrapper">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="rahiqueosman@gmail.com"
+              />
+            </div>
+
+            <!-- Message -->
+            <div class="message-wrapper">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                required
+                placeholder="Your message here"
+              ></textarea>
+            </div>
+
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- Redirect after submit -->
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourwebsite.com/thank-you.html"
+            />
+
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="photo">
+          <img
+            src="./public/profile-picture.png"
+            alt="profile-picture"
+            width="100%"
+          />
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-wrapper">
+          <div><p>Made with ♥ by Rahique</p></div>
+          <div>copyright &copy; 2025</div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

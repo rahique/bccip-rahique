@@ -1,0 +1,143 @@
+/* Reset / Global Styles ---------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Removes default browser spacing and makes box-sizing easier to manage */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* Removes default padding/margin from headings & paragraphs */
+
+/* Container styling ---------------- */
+.container {
+  background: #333; /* Dark background */
+  height: 100vh; /* Full height of the screen */
+  width: 100vw; /* Full width of the screen */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space between header, main, footer */
+}
+
+/* NAV BAR ------------------------ */
+header {
+  background-color: #1d1d1d; /* Darker bar */
+  padding: 1rem 10%; /* Top-bottom 1rem, sides 10% */
+  color: aliceblue; /* Light text color */
+}
+
+nav {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Push items apart */
+  align-items: center; /* Align vertically */
+}
+
+nav ul {
+  display: flex; /* Make list horizontal */
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 1rem; /* Space between links */
+}
+
+nav ul a {
+  text-decoration: none; /* Remove underline */
+  list-style: none; /* Remove bullet points */
+  color: aliceblue; /* White text */
+  transition: color 300ms ease; /* Smooth hover color change */
+}
+
+/* Hover effect for links */
+nav ul a:hover {
+  color: #ff6243; /* Orange highlight */
+}
+
+.btn {
+  padding: 8px 2rem 12px 2rem; /* Padding inside button */
+  border: none;
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: #ff6243; /* Orange background */
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: inset 0px -4px 0px 0px #9c3d2a; /* Inner shadow effect */
+  transition: box-shadow 300ms ease;
+}
+
+.btn:hover {
+  box-shadow: inset 0px 0px 0px 0px #9c3d2a; /* Removes shadow on hover */
+}
+
+.btn:active {
+  box-shadow: inset 0px 0px 0px 0px #9c3d2a;
+  outline: 4px solid #9c3d2a; /* Adds outline when clicked */
+}
+
+.logo {
+  font-weight: 900; /* Bold logo */
+  font-size: 1.5rem;
+  color: #ff6243; /* Orange */
+  transition: transform 400ms ease; /* Smooth scaling on hover */
+}
+.logo:hover {
+  transform: scale(1.1); /* Slightly enlarges */
+}
+
+/* MAIN ------------------------ */
+main {
+  padding: 0 10%; /* Side spacing */
+  display: flex;
+  justify-content: space-between; /* Content left, photo right */
+  align-items: center; /* Vertically centered */
+  width: 100%;
+}
+
+.photo {
+  width: 30%; /* Takes 30% width */
+}
+
+.photo img {
+  border-radius: 1rem; /* Rounded edges */
+  overflow: hidden;
+  outline: 5px solid #ca5139; /* Orange border around image */
+}
+
+.content {
+  width: 50%; /* Takes 50% width */
+}
+
+.content h2 {
+  font-size: 4rem; /* Large heading */
+  color: aliceblue; /* White text */
+}
+
+.content h2 span {
+  color: #ff6243; /* Highlighted orange text */
+  font-weight: 900;
+}
+
+.content p {
+  color: #d6d6d6; /* Light gray text */
+  text-align: justify; /* Even spacing for both sides */
+}
+
+/* Footer------------------- */
+footer {
+  padding: 1rem 10%; /* Inside spacing */
+  background: #1d1d1d; /* Dark footer */
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between; /* Left and right footer content */
+  color: aliceblue; /* White text */
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document -->
+
+<html lang="en">
+  <!-- "lang" attribute sets the language of the page (important for accessibility & SEO) -->
+
+  <head>
+    <!-- The head contains metadata (information about the page, not directly visible on screen) -->
+
+    <meta charset="UTF-8" />
+    <!-- Sets the character encoding to UTF-8 (can display almost any text/symbol) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes the page responsive: width=device-width makes it adapt to screen size -->
+
+    <title>Rahique</title>
+    <!-- Title shown in the browser tab -->
+
+    <!-- Linking external CSS files (styles for this page) -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/animaiton.css" />
+  </head>
+
+  <body>
+    <!-- The visible content of the page starts here -->
+
+    <section class="container">
+      <!-- A main wrapper section for everything inside -->
+
+      <header>
+        <!-- Header section (usually contains nav bars or logos) -->
+        <nav>
+          <!-- Navigation bar -->
+          <div class="logo">Rahique</div>
+          <!-- Logo text -->
+
+          <ul class="nav-list">
+            <!-- Unordered list for navigation items -->
+            <a href="./index.html">
+              <!-- Link to homepage -->
+              <li class="nav-item">Home</li>
+            </a>
+
+            <a href="./skills.html">
+              <!-- Link to skills page -->
+              <li class="nav-item">skills</li>
+            </a>
+          </ul>
+
+          <!-- Contact button links to another page -->
+          <a href="./contact.html"><button class="btn">Contact</button></a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- Main content area -->
+        <div class="content">
+          <!-- Text content -->
+          <h2>Hi, I'm <span>Rahique Osman</span></h2>
+          <!-- h2 heading, with "span" to highlight part of the text -->
+
+          <p>
+            I’m Rahique, a 22-year-old student and part-time UI/UX designer from
+            Bangladesh. I’m passionate about technology, design, and building
+            digital products. Currently, I’m learning full-stack development
+            while working on creative projects and growing my skills.
+          </p>
+          <!-- Paragraph of introduction -->
+        </div>
+
+        <div class="photo">
+          <!-- Profile picture section -->
+          <img
+            src="./public/profile-picture.png"
+            alt="profile-picture"
+            width="100%"
+          />
+        </div>
+      </main>
+
+      <footer>
+        <!-- Footer section -->
+        <div class="footer-wrapper">
+          <div><p>Made with ♥ by Rahique</p></div>
+          <div>copyright &copy 2025</div>
+          <!-- "&copy" = copyright symbol -->
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
