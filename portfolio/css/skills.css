@@ -11,7 +11,7 @@ main {
 }
 .skills-wrapper h1 {
   font-size: 2rem;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   color: white;
 }
 
@@ -26,6 +26,7 @@ main {
 .skill-grid div {
   background: #ff624339;
   border: 2px solid #ff6243;
+  outline: 0px solid #ff624339;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,8 +34,11 @@ main {
   color: rgb(255, 255, 255);
   font-weight: 900;
   border-radius: 8px;
-  transition: background 400ms ease-in-out;
+  transition: background 200ms ease-in-out, transform 200ms ease-in-out,
+    outline 200ms ease-in-out;
 }
 .skill-grid div:hover {
   background: #ff6243;
+  transform: rotate(5deg);
+  outline: 5px solid #ff624339;
 }

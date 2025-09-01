@@ -84,12 +84,12 @@ nav ul a:hover {
 
 .logo {
   font-weight: 900; /* Bold logo */
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #ff6243; /* Orange */
   transition: transform 400ms ease; /* Smooth scaling on hover */
 }
 .logo:hover {
-  transform: scale(1.1); /* Slightly enlarges */
+  transform: translateX(5px); /* Slightly enlarges */
 }
 
 /* MAIN ------------------------ */
@@ -118,9 +118,15 @@ main {
 .content h2 {
   font-size: 4rem; /* Large heading */
   color: aliceblue; /* White text */
+  line-height: 95%;
+  padding: 1rem 0rem;
 }
 
 .content h2 span {
+  color: #ff6243; /* Highlighted orange text */
+  font-weight: 900;
+}
+.content p span {
   color: #ff6243; /* Highlighted orange text */
   font-weight: 900;
 }
@@ -140,4 +146,7 @@ footer {
   display: flex;
   justify-content: space-between; /* Left and right footer content */
   color: aliceblue; /* White text */
+}
+.love {
+  color: #ff6243;
 }
