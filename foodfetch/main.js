@@ -42,3 +42,10 @@ button.addEventListener("click", () => {
     food();
   }
 });
+
+document.addEventListener("keypress", (e) => {
+  country = input.value.trim();
+  if (e.key === "Enter" && country) {
+    food();
+  }
+});
