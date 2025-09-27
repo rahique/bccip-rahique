@@ -6,10 +6,12 @@ let timer = document.querySelector(".timer");
 async function getText() {
   let data = await fetch("https://official-joke-api.appspot.com/random_joke");
   let joke = await data.json();
+  console.log(joke);
   setup.textContent = joke.setup;
   punchline.textContent = joke.punchline;
 }
 
+getText();
 let totalSec = 60;
 setInterval(() => {
   totalSec -= 1;
@@ -21,8 +23,6 @@ setInterval(() => {
     getText();
   }
 }, 1000);
-
-getText();
 
 btn.addEventListener("click", () => {
   getText();

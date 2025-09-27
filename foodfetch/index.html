@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-green-100">
+    <main class="flex flex-col justify-center items-center bg-green-100 h-fit">
+      <h1 class="text-3xl pt-32 text-green-600 p-8 text-center">
+        Get food list based on Country
+      </h1>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          class="input outline-2 outline-green-400 rounded-xl"
+          placeholder="British"
+        />
+        <button class="btn bg-green-600 px-6 py-4 rounded-xl text-white">
+          Search
+        </button>
+      </div>
+      <!-- card container -->
+      <div class="container"></div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
